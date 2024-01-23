@@ -1,0 +1,60 @@
+/* styles.css */
+
+/* Center-align the title and add some margin at the bottom */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px; /* Increase title font size */
+}
+
+/* Set table borders and width */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px; /* Increase table font size */
+}
+
+/* Style table headers */
+th {
+    background-color: #658245; /* Header background color */
+    color: white;
+    padding: 10px; /* Increase header padding */
+    text-align: center;
+    border: 1px solid #ddd; /* Add border to headers */
+}
+
+/* Style alternating rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style table cells */
+td {
+    padding: 8px; /* Cell padding */
+    text-align: left;
+    border: 1px solid #ddd; /* Add border to cells */
+}
+
+/* Style profile pictures */
+td img {
+    max-width: 100px; /* Adjusted image size */
+    height: auto;
+}
+
+/* Style status buttons */
+.status-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.status-button.inactive {
+    background-color: #4CAF50;
+}

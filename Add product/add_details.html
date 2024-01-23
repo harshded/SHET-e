@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>product page</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="dtlstyle.css">
+
+</head>
+<body>
+<div class="container">
+
+   <div class="product-form-container">
+
+      <form action="" method="post" enctype="multipart/form-data">
+         <h3>Add A NEW PRODUCT</h3>
+		 <select name="select" class="box" required>
+		 <option>Select Category</option>
+		 <option>Vegetables</option>
+		 <option>Fruits</option></select>
+         <input type="text" placeholder=" product name" name="name" class="box" required>
+		 <textarea name="description" id="" rows="4"  name="desc" class="box" placeholder="Description" required></textarea>
+         <input type="number" placeholder=" Original price" name="oprice" class="box" required>
+		 <input type="number" placeholder=" Selling price" name="sprice" class="box" required>
+		 <input type="number" name="qty" placeholder="Quantity in kg" required class="box" >
+		 <input type="text" name="qty" placeholder="Expire date:" onfocus="(this.type='date')"  required class="box">
+         <input type="text" placeholder="Upload Image"accept="image/png, image/jpeg, image/jpg" onfocus="(this.type='file')" name="image" class="box" required>
+         <input type="submit" class="btn" name="add_product" value="add product">
+      </form>
+   </div>
+</div>
+   
+
+</body>
+</html>
